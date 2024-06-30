@@ -11,7 +11,7 @@ const Login = () => {
         e.preventDefault();
 
         try {
-            const response = await axios.post('http://localhost:5000/login', { email, password });
+            const response = await axios.post('https://animefanpage-be.onrender.com/login', { email, password });
             
 
             setMessage("Login Successful");
