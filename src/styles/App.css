@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+:root {
+  --primary-bg-color: #1b1b1b; 
+  --primary-text-color: #ff6347; 
+  --secondary-text-color: #fff; 
+  --font-family: 'Rock Salt', cursive;
+}
+
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  background-color: var(--primary-bg-color);
+  color: var(--secondary-text-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+}
+
+a:hover {
+  color: var(--primary-text-color);
+}

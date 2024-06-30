@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+.navbar {
+  background-color: #0b0c10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.navbar-title a {
+  font-family: 'Rock Salt', cursive;
+  color: #ff6347;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.navbar-links a {
+  color: #c5c6c7;
+  margin-left: 15px;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.navbar-links a:hover {
+  color: #ff6347;
+}

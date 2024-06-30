@@ -1,0 +1,52 @@
+/* Login.css */
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000; /* Black background for JJK theme */
+    background-image: url(''); /* Optional: Add a JJK-themed background image */
+    background-size: cover;
+  }
+  
+  .login-form {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+    width: 300px;
+  }
+  
+  .login-input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #444; /* Dark gray border */
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .login-button {
+    width: 50%;
+    padding: 10px;
+    background-color: #f00; /* Red button background */
+    color: #ffffff; /* White button text */
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #b00; /* Darker red on hover */
+  }
+  
+  .login-message {
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+    color: #f00; /* Red color for message */
+  }
+  
