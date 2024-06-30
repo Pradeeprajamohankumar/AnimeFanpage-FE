@@ -20,7 +20,7 @@ const Signup = () => {
         }
 
         try {
-            const response = await axios.post('http://localhost:5000/signup', {
+            const response = await axios.post('https://animefanpage-be.onrender.com/signup', {
                 first_name: fname,
                 last_name: lname,
                 email: email,
