@@ -17,7 +17,7 @@ const Gallery = () => {
 
     const fetchData = async () => {
       try {
-          const response = await axios.get('http://localhost:5000/characters');
+          const response = await axios.get('https://animefanpage-be.onrender.com/characters');
           const data=await response.data;
           setCharacters(data);  // Assuming response.data is an array of characters
           console.log(data);
@@ -32,7 +32,7 @@ const Gallery = () => {
 
         try {
             if (id) {
-                await axios.put(`http://localhost:5000/characters/${id}`, {
+                await axios.put(`https://animefanpage-be.onrender.com/characters/${id}`, {
                     name,
                     image,
                     description,
@@ -41,7 +41,7 @@ const Gallery = () => {
                 });
                 alert('Character updated successfully');
             } else {
-                await axios.post('http://localhost:5000/characters', {
+                await axios.post('https://animefanpage-be.onrender.com/characters', {
                     name,
                     image,
                     description,
@@ -60,7 +60,7 @@ const Gallery = () => {
 
     const handleDelete = async (id) => {
         try {
-            await axios.delete(`http://localhost:5000/characters/${id}`);
+            await axios.delete(`https://animefanpage-be.onrender.com/characters/${id}`);
             alert('Character deleted successfully');
             fetchData();
         } catch (error) {
